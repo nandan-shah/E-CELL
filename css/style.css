@@ -1,0 +1,412 @@
+body {
+  margin: 0;
+}
+
+div {
+  height: 800px;
+  margin-top: 0;
+}
+
+img {
+  margin-top: 5%;
+}
+
+.heading {
+  font-size: 50px;
+  margin: 2px 0 0;
+  font-family: Snell Roundhand, cursive;
+  font-weight: 400;
+  color: #40a8c4;
+}
+
+.first {
+  background-image: url(image/11333.jpg);
+  background-repeat: space;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.institute {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 700;
+}
+
+.tage {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.about {
+  padding: 20%;
+  padding-top: 5%;
+  height: 25%;
+  background-color: #cefff1;
+}
+
+.head {
+  font-size: 50px
+}
+
+.about-content {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Snell Roundhand, cursive;
+  padding-top: 5%;
+}
+
+#menu {
+  position: fixed;
+  width: 200px;
+  height: 50%;
+  background: #f1f3f8;
+  left: -200px;
+  top: 80px;
+  transition: all 400ms linear;
+}
+
+#menu.active {
+  left: 0px;
+}
+
+#menu ul li {
+  color: rgba(230, 230, 230, 0.7);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+#menu ul li:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+#menu ul li a {
+  text-decoration: none;
+}
+
+#menu .three-dots {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+#menu:hover .three-dots {
+  height: 30px;
+  width: 40px;
+  background-color: black;
+}
+
+#menu .three-dots span {
+  display: block;
+  height: 3px;
+  width: 30px;
+  background: #4B4B4B;
+  margin: 5px;
+}
+
+.team {
+  text-align: center;
+  background-color: #abc2e8;
+  padding-top: 2%;
+  color: black;
+  width: 100%;
+}
+
+.t1 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+}
+
+.t2 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+}
+
+.t3 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+}
+
+.t4:hover {
+  visibility: collapse;
+}
+
+.t4 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+  background-color: #1a1c20;
+  position: relative;
+  bottom: 275px;
+  color: white;
+  border-radius: 25%;
+}
+
+.t5:hover {
+  visibility: collapse;
+}
+
+.t5 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+  background-color: #1a1c20;
+  position: relative;
+  bottom: 275px;
+  color: white;
+  border-radius: 25%;
+
+}
+
+.t6:hover {
+  visibility: collapse;
+}
+
+.t6 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+  background-color: #1a1c20;
+  position: relative;
+  bottom: 275px;
+  color: white;
+  border-radius: 25%;
+}
+
+.lt1 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+  position: absolute;
+
+  right: 25%;
+  margin-top: 50px;
+}
+
+.lt2 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+  position: absolute;
+  left: 24.5%;
+  margin-top: 50px;
+
+}
+
+.lt4:hover {
+  visibility: collapse;
+}
+
+.lt4 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+  background-color: #1a1c20;
+  position: relative;
+  left: 25%;
+  bottom: 230px;
+  color: white;
+  border-radius: 25%;
+}
+
+.lt5:hover {
+  visibility: collapse;
+}
+
+.lt5 {
+  height: 35%;
+  width: 25%;
+  display: inline-block;
+  background-color: #1a1c20;
+  position: relative;
+  bottom: 230px;
+  right:390px;
+  color: white;
+  border-radius: 25%;
+}
+
+.contact {
+  height: 300px;
+  color: white;
+  background-color: #050505;
+  padding: 10px;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.confol {
+  color: white;
+  position: relative;
+  top: 70px;
+}
+
+.call {
+  height: 200px;
+  width: 350px;
+  position: relative;
+  bottom: 65%;
+  right: 40%;
+}
+
+.Address {
+  height: 200px;
+  width: 350px;
+  font-size: 20px;
+  position: relative;
+  left: 25%;
+  bottom: 430px;
+}
+
+.mail {
+  height: 33.33%;
+  width: 20.66%;
+  position: relative;
+  right: 20%;
+  bottom: 210%;
+}
+
+.mailimage {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+}
+
+.rights {
+  color: white;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  background-color: #050505;
+  position: relative;
+  top: 0px;
+}
+
+.eventhead {
+  background-color: #222831;
+  padding-top: 2%;
+  color: white;
+  height: 200px;
+  width: 70%;
+  position: relative;
+  bottom: 30px;
+}
+
+.event:hover {
+  background-color: #1b262c;
+}
+
+.event {
+  background-color: #222831;
+  z-index: -1;
+  padding: 2% 5% 5% 0;
+  color: white;
+  height: 2600px;
+}
+
+.text {
+  padding: 0 150px;
+  font-size: 25px;
+}
+
+.em {
+  position: relative;
+  top: 15px;
+}
+
+.poster1 {
+  margin: 10px 30px;
+  height: 35%;
+  width: 20%;
+  float: left;
+  border-radius: 0 20px;
+  position: relative;
+  right: 10px;
+  bottom: 20px;
+}
+
+.pitch:hover {
+  background-color: #d3dbff;
+}
+
+.pitch {
+  padding: 40px 100px;
+  background-color: white;
+  margin: 5px auto;
+  border-radius: 40px 0;
+  color: black;
+  width: 70%;
+  height: 350px;
+  font-size: 90%;
+}
+
+.poster2 {
+  margin: 10px 30px;
+  height: 35%;
+  width: 20%;
+  float: right;
+  border-radius: 0 20px;
+  position: relative;
+  right: 10px;
+  bottom: 20px;
+}
+
+.poster3 {
+  margin: 10px 30px;
+  height: 35%;
+  width: 20%;
+  float: left;
+  border-radius: 0 20px;
+  position: relative;
+  right: 10px;
+  bottom: 20px;
+}
+
+.poster4 {
+  margin: 10px 30px;
+  height: 35%;
+  width: 20%;
+  float: right;
+  border-radius: 0 20px;
+  position: relative;
+  right: 10px;
+  bottom: 20px;
+}
+
+.poster5 {
+  margin: 10px 30px;
+  height: 35%;
+  width: 20%;
+  float: left;
+  border-radius: 0 20px;
+  position: relative;
+  right: 10px;
+  bottom: 25px;
+}
+
+.button:hover {
+  background-color: #393e46;
+}
+
+.button {
+  background-color: #363636;
+  color: #f4f6ff;
+}
+
+.eventtopic {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: Lucida, cursive, sans-serif;
+}
+
+.srijan {
+  background-color: #5d5b6a;
+  padding-top: 2%;
+  color: white;
+  height: 3700px;
+
+}
