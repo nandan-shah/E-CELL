@@ -225,7 +225,7 @@ img {
   background-color: #1a1c20;
   position: relative;
   bottom: 230px;
-  right:390px;
+  right:27%;
   color: white;
   border-radius: 25%;
 }
@@ -291,7 +291,7 @@ img {
   padding-top: 2%;
   color: white;
   height: 200px;
-  width: 70%;
+  
   position: relative;
   bottom: 30px;
 }
